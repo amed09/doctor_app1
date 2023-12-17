@@ -7,7 +7,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 class OnbordinfTextAndIcon extends StatelessWidget {
   const OnbordinfTextAndIcon({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Padding(
       padding:  EdgeInsets.only(top: 40.h),
