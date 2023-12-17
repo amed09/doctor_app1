@@ -15,6 +15,7 @@ class OnbordinfTextAndIcon extends StatelessWidget {
         children: [
           SvgPicture.asset(MyImages.appLogo),
           SizedBox(
+            //gg
             width: 10.w,
           ),
           Text(
