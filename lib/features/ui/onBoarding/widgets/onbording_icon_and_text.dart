@@ -21,6 +21,7 @@ class OnbordinfTextAndIcon extends StatelessWidget {
             'Docdoc',
             style: MyStyle.textW700Black,
           )
+          
         ],
       ),
     );
