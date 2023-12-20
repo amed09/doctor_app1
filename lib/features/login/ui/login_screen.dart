@@ -1,6 +1,7 @@
 import 'package:doctor_app/core/helper/spacing.dart';
 import 'package:doctor_app/core/theming/my_colors.dart';
 import 'package:doctor_app/core/theming/my_style.dart';
+import 'package:doctor_app/features/login/ui/widgets/sign_up.dart';
 import 'package:doctor_app/features/login/ui/widgets/terms_and_condition.dart';
 import 'package:doctor_app/features/ui/widgets/app_button_text.dart';
 import 'package:doctor_app/features/ui/widgets/app_text_filed.dart';
@@ -79,7 +80,16 @@ class _LoginSCreenState extends State<LoginSCreen> {
               ),
               verticalSpace(50),
               //  Divider(color: Colors.red,e,),
-              const TermsAndConditionText()
+              Padding(
+                padding: EdgeInsets.only(left: 15.w),
+                child: const TermsAndConditionText(),
+              ),
+              verticalSpace(60),
+
+              Padding(
+                padding: EdgeInsets.only(left: 15.w),
+                child: const SignUpText(),
+              ),
             ],
           ),
         ),
